@@ -1,0 +1,82 @@
+p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Winky Sans', 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h2 {
+    color: rgb(0, 229, 255);
+    text-align: left;
+    font-family: 'Winky Sans', 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h3 {
+    color: rgb(0, 229, 255);
+    text-align: left;
+    font-family: 'Winky Sans', 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 229, 255);
+    text-align: left;
+    font-family: 'Winky Sans', 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    font-family: 'Winky Sans', 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+footer {
+    border: 2px solid #003f7d;
+    /* Espessura + estilo + cor */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer {
+    background-color: rgb(76, 40, 122);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    width: 800px
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Sobremim {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Contatos {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Projetos {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.imagem-redonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(71, 0, 141);
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
